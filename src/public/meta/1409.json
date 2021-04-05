@@ -1,0 +1,23 @@
+{
+    "name": "[Silver] Python Sora - #01 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWYqrEC8Cah9BfGX377DBKnWWChGnyRmeUVKDdZZpv9yo",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "trait_type": "Total Supply",
+            "value": 100
+        },
+        {
+            "trait_type": "Token#",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "[Silver] Big Axion - #01 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTub3NWcjpLMbZFd9qNdCwtdLKbChSj6KTk91ZLRyYNGN",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "trait_type": "Total Supply",
+            "value": 100
+        },
+        {
+            "trait_type": "Token#",
+            "value": 1
+        }
+    ]
+}

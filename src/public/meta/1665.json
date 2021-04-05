@@ -1,0 +1,23 @@
+{
+    "name": "[Silver] Ghosty Minter - #01 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZjKmWzdtgFxqT3NTZJ96364Zb6sgmrm5vnAvyayv6sRP",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "trait_type": "Total Supply",
+            "value": 100
+        },
+        {
+            "trait_type": "Token#",
+            "value": 1
+        }
+    ]
+}

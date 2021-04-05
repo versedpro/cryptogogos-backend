@@ -1,0 +1,23 @@
+{
+    "name": "[Silver] Smart Elrond - #01 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWsZRWivMr4H51UxdyUYGSPkiXJEDKcrippoNaaMytc6S",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "trait_type": "Total Supply",
+            "value": 100
+        },
+        {
+            "trait_type": "Token#",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "[Silver] Ms Tasty Lips - #01 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS5ckptFrhsLTmk9VoMdEbGL9ygCjhgaZnGd5KtRqhEyx",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "trait_type": "Total Supply",
+            "value": 100
+        },
+        {
+            "trait_type": "Token#",
+            "value": 1
+        }
+    ]
+}
