@@ -8,6 +8,6 @@ const router = express.Router();
 router.post('/generate', generateCards);
 router.post('/draw', drawCard);
 router.get('/', listCards)
-router.post('/get-file', getURIfile)
+// router.post('/get-file', getURIfile)
 
 module.exports = router;
