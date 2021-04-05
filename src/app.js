@@ -18,6 +18,9 @@ app.use(
     credentials: true,
   })
 );
+app.options('*', cors());
+
+
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
@@ -36,5 +39,5 @@ app.use(errorHandler);
 
 app.listen(80, (err) => {
   if (err) console.log(err);
-  console.log("server is running at http://localhost:6000");
+  console.log("server is running at http://localhost:9000");
 });

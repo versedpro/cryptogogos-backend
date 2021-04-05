@@ -1,7 +1,8 @@
 const db = require("../../../models")
 const fs = require('fs');
 const path = require("path")
-const axios = require('axios')
+const axios = require('axios');
+const getURIfile = require("./getDatafile.controller");
 const url = `https://api.pinata.cloud/pinning/pinFileToIPFS`;
 
 const drawCard = async (req, res, next) => {
@@ -63,7 +64,9 @@ const drawCard = async (req, res, next) => {
         }
         const finalCards = [];
         for (let cad of selectedCards) {
+
             const obj = {
+
                 name: cad.name,
                 description: "",
                 image: cad.image,
@@ -77,67 +80,34 @@ const drawCard = async (req, res, next) => {
                         value: cad.type,
                     },
                     {
-                        trait_type: "Total Supply",
-                        value: cad.total_supply,
+                        display_type: "number",
+                        trait_type: "Total Available",
+                        value: cad.supply_id,
+                        max_value: cad.total_supply
                     },
                     {
-                        trait_type: "Token#",
+                        display_type: "number",
+                        trait_type: "Serial No.",
                         value: cad.supply_id,
+                        max_value: cad.total_supply
                     }
                 ]
             }
 
             const json = JSON.stringify(obj, null, 4);
-            fs.writeFile(
+            await fs.writeFile(
                 `src/public/meta/${cad.token_id}.json`,
                 json, (err) => {
                     if (err) console.log(err)
                 }
             );
 
-            // let uploadData = new FormData();
-
-            // const options = {
-            //     pinataMetadata: {
-            //         name: cad.token_id,
-            //     },
-            //     pinataOptions: {
-            //         cidVersion: 0
-            //     }
-            // };
-
-            // uploadData.append('pinataMetadata', JSON.stringify(options));
-
-            // const file = fs.createReadStream(`metadatas/${cad.token_id}.json`);
-            // uploadData.append('file', file)
-
-
-            // const pinataOptions = JSON.stringify({
-            //     cidVersion: 0,
-            //     customPinPolicy: {
-            //         regions: [
-            //             {
-            //                 id: 'FRA1',
-            //                 desiredReplicationCount: 1
-            //             },
-            //             {
-            //                 id: 'NYC1',
-            //                 desiredReplicationCount: 2
-            //             }
-            //         ]
-            //     }
-            // });
-            // uploadData.append('pinataOptions', pinataOptions);
-
-            // const fd =  await axios.post(url, uploadData, {
-            //     headers: {
-            //         'Content-Type': `multipart/form-data; boundary=${uploadData._boundary}`,
-            //         pinata_api_key: '16c3984370294d4828c0',
-            //         pinata_secret_api_key: '3672043c01bc3257a644b78245ed973db78a7ea66cbe07bd3addc9995bcdd172'
-            //     }
-            // });
-
-            finalCards.push(cad)
+            const uadd = await getURIfile(cad.token_id);
+            const finalCard = {
+                card: cad,
+                image: uadd
+            }
+            finalCards.push(finalCard)
         }
         res.json(finalCards);
 
