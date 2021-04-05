@@ -34,7 +34,7 @@ app.use('/api/v1/users', userRoutes)
 
 app.use(errorHandler);
 
-app.listen(9000, (err) => {
+app.listen(80, (err) => {
   if (err) console.log(err);
   console.log("server is running at http://localhost:6000");
 });
