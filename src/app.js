@@ -18,11 +18,9 @@ app.use(
     credentials: true,
   })
 );
-app.all('/*', function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "X-Requested-With");
-  next();
-});
+app.options('*', cors());
+
+
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
@@ -41,5 +39,5 @@ app.use(errorHandler);
 
 app.listen(9000, (err) => {
   if (err) console.log(err);
-  console.log("server is running at http://localhost:6000");
+  console.log("server is running at http://localhost:9000");
 });

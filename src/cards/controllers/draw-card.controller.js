@@ -77,11 +77,15 @@ const drawCard = async (req, res, next) => {
                         value: cad.type,
                     },
                     {
+                        trait_type: "Total Available",
+                        value: cad.total_supply,
+                    },
+                     {
                         trait_type: "Total Supply",
                         value: cad.total_supply,
                     },
                     {
-                        trait_type: "Token#",
+                        trait_type: "Serial No.",
                         value: cad.supply_id,
                     }
                 ]
