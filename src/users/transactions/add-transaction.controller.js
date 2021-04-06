@@ -19,7 +19,8 @@ const addTransactions = async (req, res, next) => {
           token_id: tid,
         },
       });
-      console.log("tokenId", currentToken);
+      // console.log("currentToken", currentToken);
+
       const updateToken = await db.tokens.update(
         {
           minted: true,
@@ -32,21 +33,22 @@ const addTransactions = async (req, res, next) => {
         }
       );
 
-      console.log("update".updateToken);
-
       // const token = await db.tokens.findOne({
       //   where: {
       //     token_id: tokenId,
       //   },
       // });
       // console.log("token", token);
-
+      console.log("serial", currentToken.serial_number);
+      console.log("type", currentToken.type);
       const card = await db.cards.findOne({
         where: {
           serial_number: currentToken.serial_number,
+          type: currentToken.type,
         },
       });
 
+      console.log("adad", card);
       let updateSupply = await db.cards.update(
         {
           current_supply: card.current_supply + 1,
