@@ -18,17 +18,17 @@ module.exports = {
         type: Sequelize.STRING
       },
       tokenIds: {
-        type: Sequelize.ARRAY(DataTypes.STRING)
+        type: Sequelize.ARRAY(Sequelize.STRING)
       },
 
       value: {
-        type: DataTypes.STRING
+        type: Sequelize.STRING
       },
       quantity: {
-        type: DataTypes.INTEGER
+        type: Sequelize.INTEGER
       },
       status: {
-        type:DataTypes.STRING
+        type:Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
