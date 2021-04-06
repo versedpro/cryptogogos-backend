@@ -11,12 +11,24 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      
     }
   };
   transactions.init({
     eth_address: DataTypes.STRING,
     tokenId: DataTypes.INTEGER,
-    txHash: DataTypes.STRING
+    txHash: DataTypes.STRING,
+    tokenIds: DataTypes.ARRAY(DataTypes.STRING),
+
+    value: {
+      type: DataTypes.STRING
+    },
+    quantity: {
+      type: DataTypes.INTEGER
+    },
+    status: {
+      type:DataTypes.STRING
+    },
   }, {
     sequelize,
     modelName: 'transactions',

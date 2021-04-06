@@ -17,6 +17,19 @@ module.exports = {
       txHash: {
         type: Sequelize.STRING
       },
+      tokenIds: {
+        type: Sequelize.ARRAY(DataTypes.STRING)
+      },
+
+      value: {
+        type: DataTypes.STRING
+      },
+      quantity: {
+        type: DataTypes.INTEGER
+      },
+      status: {
+        type:DataTypes.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

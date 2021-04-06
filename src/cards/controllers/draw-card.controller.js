@@ -51,16 +51,7 @@ const drawCard = async (req, res, next) => {
             console.log("minted");
             i--;
           } else {
-            let updateSupply = await db.cards.update(
-              {
-                current_supply: current.current_supply + 1,
-              },
-              {
-                where: {
-                  id: current.id,
-                },
-              }
-            );
+     
             selectedCards.push(currentCard);
           }
         }
