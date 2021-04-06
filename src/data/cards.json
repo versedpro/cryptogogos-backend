@@ -37,7 +37,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Big Bites",
@@ -77,7 +77,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Lil Tron",
@@ -117,7 +117,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Big Axion",
@@ -157,7 +157,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Chili",
@@ -197,7 +197,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Golem",
@@ -237,7 +237,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Phantom",
@@ -277,7 +277,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Kira",
@@ -317,7 +317,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Mushroom Head",
@@ -357,7 +357,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Slimy Dodo",
@@ -397,7 +397,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Metalhead",
@@ -437,7 +437,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Python Sora",
@@ -477,7 +477,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Creamy Falcon",
@@ -517,7 +517,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Ghosty Minter",
@@ -557,7 +557,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Captain Enjin",
@@ -597,7 +597,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Rocky",
@@ -637,7 +637,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Smart Elrond",
@@ -677,7 +677,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Venus Heart",
@@ -717,7 +717,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Neo Shiller ",
@@ -757,7 +757,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Pinky Eve",
@@ -797,7 +797,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Raven",
@@ -837,7 +837,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Buffalo Nexus",
@@ -877,7 +877,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Sneaky Larry",
@@ -917,7 +917,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Stacey",
@@ -953,7 +953,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Sporty Flo",
@@ -993,7 +993,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Hip Zenon",
@@ -1033,7 +1033,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Mother Atri",
@@ -1073,7 +1073,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Pantos",
@@ -1113,7 +1113,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Pibble",
@@ -1153,7 +1153,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Polly the Chic",
@@ -1193,7 +1193,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Big Ren",
@@ -1233,7 +1233,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Toddy Todd",
@@ -1273,7 +1273,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Cocktail Scooter",
@@ -1313,7 +1313,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Veggie the Shark",
@@ -1353,7 +1353,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Neelix",
@@ -1393,7 +1393,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Nash ",
@@ -1433,7 +1433,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Ursula Blue",
@@ -1473,7 +1473,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Speedy Gonzales",
@@ -1513,7 +1513,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Pinky Deepsea",
@@ -1553,7 +1553,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Tron",
@@ -1593,7 +1593,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Prince Chuck",
@@ -1633,7 +1633,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Neo Naomi",
@@ -1669,7 +1669,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Toffee Crunch",
@@ -1705,7 +1705,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Kimoto",
@@ -1741,7 +1741,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Silent Bob",
@@ -1777,7 +1777,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Midget Filipp",
@@ -1817,7 +1817,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Harry G",
@@ -1853,7 +1853,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Dana Dashi",
@@ -1893,7 +1893,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Four-eyed Rari",
@@ -1929,7 +1929,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Toxic Simma",
@@ -1965,7 +1965,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Grumpy Nelson",
@@ -2005,7 +2005,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Young Frankie",
@@ -2041,7 +2041,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Party Jim",
@@ -2077,7 +2077,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Candy Crusher",
@@ -2113,7 +2113,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Fluorescent Goldie",
@@ -2149,7 +2149,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Silly Cindy",
@@ -2185,7 +2185,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Anxious Tom",
@@ -2221,7 +2221,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Bully Bark",
@@ -2257,7 +2257,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Broccoli Patrick",
@@ -2293,7 +2293,7 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         },
         {
             "name": "Lovely Brinch",
@@ -2329,6 +2329,6 @@
             "type": "Legendary",
             "current_supply": "0",
             "chance": "0.007",
-            "released": "TRUE"
+            "released": "FALSE"
         }
     ]
