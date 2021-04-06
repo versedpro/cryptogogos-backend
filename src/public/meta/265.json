@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Lil Tron - #09 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbugeusqnRMXaSbyonjf6swvhv4uM9HgCuuvKhqAixDSe",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 9,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 9,
+            "max_value": 100
+        }
+    ]
+}

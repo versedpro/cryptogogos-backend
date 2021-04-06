@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Ms Tasty Lips - #13 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWX9jN88LzB34d3aTcshSbi1oM9YdUicGGeVF5FK1vXYK",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 13,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 13,
+            "max_value": 100
+        }
+    ]
+}

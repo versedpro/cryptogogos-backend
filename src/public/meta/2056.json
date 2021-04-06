@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Smart Elrond - #08 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZx7EjJiac3xuZ49w42njvRmd9qNYZm1YDVrCf9rJoFQ9",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 8,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 8,
+            "max_value": 100
+        }
+    ]
+}

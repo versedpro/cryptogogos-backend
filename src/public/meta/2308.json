@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Neo Shiller - #04 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdpV6k2DQo4CJcAeGqoXUPkkvbdHyruysF7PhWY1cSHLg",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 4,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 4,
+            "max_value": 100
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Mushroom Head - #07 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNjz7EyTsqX3jhYDn8KeC2RRdrv8GdbT3AfvSrg9L3eHV",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 7,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 7,
+            "max_value": 100
+        }
+    ]
+}

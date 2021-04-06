@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Pinky Eve - #05 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaWVrvV1hH4ypLFPzpLfgNvcE1dLPmgHca81YaGAFBMMC",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 5,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 5,
+            "max_value": 100
+        }
+    ]
+}

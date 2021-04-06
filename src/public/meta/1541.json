@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Creamy Falcon - #05 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVwbqEajwtbw7tPhAbtPkzGQt9R6nuNHmsxFFSxPXj3hP",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 5,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 5,
+            "max_value": 100
+        }
+    ]
+}

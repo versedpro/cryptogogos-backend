@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Metalhead - #04 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSRV5drVJ8JiLhDPPi6t7oNDw36Mv7JhjxJpmkFQTftTd",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 4,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 4,
+            "max_value": 100
+        }
+    ]
+}

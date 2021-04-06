@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Python Sora - #04 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWz9U38zv71Ta6uUWzBSP7xfsi39ZBf948XwSavuCwRJt",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 4,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 4,
+            "max_value": 100
+        }
+    ]
+}

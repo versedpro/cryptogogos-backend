@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Golem - #08 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSjw4YBSPaRrBNK5WFSGt3aueriPEutzU9DrYRxBDXiac",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 8,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 8,
+            "max_value": 100
+        }
+    ]
+}

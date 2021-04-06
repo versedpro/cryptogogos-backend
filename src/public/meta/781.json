@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Phantom - #13 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQtxLzHYtuznVM8NWgMtAE8zM7A5rTmbqsBV1Ca5akc7H",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 13,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 13,
+            "max_value": 100
+        }
+    ]
+}

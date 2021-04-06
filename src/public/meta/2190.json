@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Venus Heart - #14 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPoqx3GmiEXWJX7t5PhBDmVMK19Do3tD1fvGZ6671QwWe",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 14,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 14,
+            "max_value": 100
+        }
+    ]
+}
