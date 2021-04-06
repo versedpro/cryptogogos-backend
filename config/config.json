@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "postgres",
-    "password": "postgres",
-    "database": "gogos_db_dev",
-    "host": "127.0.0.1",
+    "password": "Y81ENEqU2OQx",
+    "database": "cryptogogos",
+    "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
     "dialect": "postgresql"
   },
   "test": {
