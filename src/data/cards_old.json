@@ -1,0 +1,2334 @@
+[
+    {
+        "name": "Ms Tasty Lips",
+        "serial_number": "1",
+        "tribe": "Green ",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Ms Tasty Lips",
+        "serial_number": "1",
+        "tribe": "Green ",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Ms Tasty Lips",
+        "serial_number": "1",
+        "tribe": "Green ",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Ms Tasty Lips",
+        "serial_number": "1",
+        "tribe": "Green ",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Big Bites",
+        "serial_number": "2",
+        "tribe": "Green ",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Big Bites",
+        "serial_number": "2",
+        "tribe": "Green ",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Big Bites",
+        "serial_number": "2",
+        "tribe": "Green ",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Big Bites",
+        "serial_number": "2",
+        "tribe": "Green ",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Lil Tron",
+        "serial_number": "3",
+        "tribe": "Purple",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Lil Tron",
+        "serial_number": "3",
+        "tribe": "Purple",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Lil Tron",
+        "serial_number": "3",
+        "tribe": "Purple",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Lil Tron",
+        "serial_number": "3",
+        "tribe": "Purple",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Big Axion",
+        "serial_number": "4",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Big Axion",
+        "serial_number": "4",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Big Axion",
+        "serial_number": "4",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Big Axion",
+        "serial_number": "4",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Chili",
+        "serial_number": "5",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Chili",
+        "serial_number": "5",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Chili",
+        "serial_number": "5",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Chili",
+        "serial_number": "5",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Golem",
+        "serial_number": "6",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Golem",
+        "serial_number": "6",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Golem",
+        "serial_number": "6",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Golem",
+        "serial_number": "6",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Phantom",
+        "serial_number": "7",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Phantom",
+        "serial_number": "7",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Phantom",
+        "serial_number": "7",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Phantom",
+        "serial_number": "7",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Kira",
+        "serial_number": "8",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Kira",
+        "serial_number": "8",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Kira",
+        "serial_number": "8",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Kira",
+        "serial_number": "8",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Mushroom Head",
+        "serial_number": "9",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Mushroom Head",
+        "serial_number": "9",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Mushroom Head",
+        "serial_number": "9",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Mushroom Head",
+        "serial_number": "9",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Slimy Dodo",
+        "serial_number": "10",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Slimy Dodo",
+        "serial_number": "10",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Slimy Dodo",
+        "serial_number": "10",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Slimy Dodo",
+        "serial_number": "10",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Metalhead",
+        "serial_number": "11",
+        "tribe": "Purple",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Metalhead",
+        "serial_number": "11",
+        "tribe": "Purple",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Metalhead",
+        "serial_number": "11",
+        "tribe": "Purple",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Metalhead",
+        "serial_number": "11",
+        "tribe": "Purple",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Python Sora",
+        "serial_number": "12",
+        "tribe": "Purple",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Python Sora",
+        "serial_number": "12",
+        "tribe": "Purple",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Python Sora",
+        "serial_number": "12",
+        "tribe": "Purple",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Python Sora",
+        "serial_number": "12",
+        "tribe": "Purple",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Creamy Falcon",
+        "serial_number": "13",
+        "tribe": "Orange",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Creamy Falcon",
+        "serial_number": "13",
+        "tribe": "Orange",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Creamy Falcon",
+        "serial_number": "13",
+        "tribe": "Orange",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Creamy Falcon",
+        "serial_number": "13",
+        "tribe": "Orange",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Ghosty Minter",
+        "serial_number": "14",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Ghosty Minter",
+        "serial_number": "14",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Ghosty Minter",
+        "serial_number": "14",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Ghosty Minter",
+        "serial_number": "14",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Captain Enjin",
+        "serial_number": "15",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Captain Enjin",
+        "serial_number": "15",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Captain Enjin",
+        "serial_number": "15",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Captain Enjin",
+        "serial_number": "15",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Rocky",
+        "serial_number": "16",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Rocky",
+        "serial_number": "16",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Rocky",
+        "serial_number": "16",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Rocky",
+        "serial_number": "16",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Smart Elrond",
+        "serial_number": "17",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Smart Elrond",
+        "serial_number": "17",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Smart Elrond",
+        "serial_number": "17",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Smart Elrond",
+        "serial_number": "17",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Venus Heart",
+        "serial_number": "18",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Venus Heart",
+        "serial_number": "18",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Venus Heart",
+        "serial_number": "18",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Venus Heart",
+        "serial_number": "18",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Neo Shiller ",
+        "serial_number": "19",
+        "tribe": "Orange",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Neo Shiller ",
+        "serial_number": "19",
+        "tribe": "Orange",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Neo Shiller ",
+        "serial_number": "19",
+        "tribe": "Orange",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Neo Shiller ",
+        "serial_number": "19",
+        "tribe": "Orange",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Pinky Eve",
+        "serial_number": "20",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Pinky Eve",
+        "serial_number": "20",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Pinky Eve",
+        "serial_number": "20",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Pinky Eve",
+        "serial_number": "20",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Raven",
+        "serial_number": "21",
+        "tribe": "Purple",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Raven",
+        "serial_number": "21",
+        "tribe": "Purple",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Raven",
+        "serial_number": "21",
+        "tribe": "Purple",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Raven",
+        "serial_number": "21",
+        "tribe": "Purple",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Buffalo Nexus",
+        "serial_number": "22",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Buffalo Nexus",
+        "serial_number": "22",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Buffalo Nexus",
+        "serial_number": "22",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Buffalo Nexus",
+        "serial_number": "22",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Sneaky Larry",
+        "serial_number": "23",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Sneaky Larry",
+        "serial_number": "23",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Sneaky Larry",
+        "serial_number": "23",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Sneaky Larry",
+        "serial_number": "23",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Stacey",
+        "serial_number": "24",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Stacey",
+        "serial_number": "24",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Stacey",
+        "serial_number": "24",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Stacey",
+        "serial_number": "24",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Sporty Flo",
+        "serial_number": "25",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Sporty Flo",
+        "serial_number": "25",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Sporty Flo",
+        "serial_number": "25",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Sporty Flo",
+        "serial_number": "25",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Hip Zenon",
+        "serial_number": "26",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Hip Zenon",
+        "serial_number": "26",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Hip Zenon",
+        "serial_number": "26",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Hip Zenon",
+        "serial_number": "26",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Mother Atri",
+        "serial_number": "27",
+        "tribe": "Orange",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Mother Atri",
+        "serial_number": "27",
+        "tribe": "Orange",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Mother Atri",
+        "serial_number": "27",
+        "tribe": "Orange",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Mother Atri",
+        "serial_number": "27",
+        "tribe": "Orange",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Pantos",
+        "serial_number": "28",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Pantos",
+        "serial_number": "28",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Pantos",
+        "serial_number": "28",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Pantos",
+        "serial_number": "28",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Pibble",
+        "serial_number": "29",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Pibble",
+        "serial_number": "29",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Pibble",
+        "serial_number": "29",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Pibble",
+        "serial_number": "29",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Polly the Chic",
+        "serial_number": "30",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Polly the Chic",
+        "serial_number": "30",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Polly the Chic",
+        "serial_number": "30",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Polly the Chic",
+        "serial_number": "30",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Big Ren",
+        "serial_number": "31",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Big Ren",
+        "serial_number": "31",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Big Ren",
+        "serial_number": "31",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Big Ren",
+        "serial_number": "31",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Toddy Todd",
+        "serial_number": "32",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Toddy Todd",
+        "serial_number": "32",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Toddy Todd",
+        "serial_number": "32",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Toddy Todd",
+        "serial_number": "32",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Cocktail Scooter",
+        "serial_number": "33",
+        "tribe": "Orange",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Cocktail Scooter",
+        "serial_number": "33",
+        "tribe": "Orange",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Cocktail Scooter",
+        "serial_number": "33",
+        "tribe": "Orange",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Cocktail Scooter",
+        "serial_number": "33",
+        "tribe": "Orange",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Veggie the Shark",
+        "serial_number": "34",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Veggie the Shark",
+        "serial_number": "34",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Veggie the Shark",
+        "serial_number": "34",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Veggie the Shark",
+        "serial_number": "34",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Neelix",
+        "serial_number": "35",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Neelix",
+        "serial_number": "35",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Neelix",
+        "serial_number": "35",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Neelix",
+        "serial_number": "35",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Nash ",
+        "serial_number": "36",
+        "tribe": "Green",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Nash ",
+        "serial_number": "36",
+        "tribe": "Green",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Nash ",
+        "serial_number": "36",
+        "tribe": "Green",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Nash ",
+        "serial_number": "36",
+        "tribe": "Green",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Ursula Blue",
+        "serial_number": "37",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Ursula Blue",
+        "serial_number": "37",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Ursula Blue",
+        "serial_number": "37",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Ursula Blue",
+        "serial_number": "37",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Speedy Gonzales",
+        "serial_number": "38",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Speedy Gonzales",
+        "serial_number": "38",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Speedy Gonzales",
+        "serial_number": "38",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Speedy Gonzales",
+        "serial_number": "38",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Pinky Deepsea",
+        "serial_number": "39",
+        "tribe": "Dollar Bull",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Pinky Deepsea",
+        "serial_number": "39",
+        "tribe": "Dollar Bull",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Pinky Deepsea",
+        "serial_number": "39",
+        "tribe": "Dollar Bull",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Pinky Deepsea",
+        "serial_number": "39",
+        "tribe": "Dollar Bull",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Tron",
+        "serial_number": "40",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Tron",
+        "serial_number": "40",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Tron",
+        "serial_number": "40",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Tron",
+        "serial_number": "40",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Prince Chuck",
+        "serial_number": "41",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Prince Chuck",
+        "serial_number": "41",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Prince Chuck",
+        "serial_number": "41",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Prince Chuck",
+        "serial_number": "41",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Neo Naomi",
+        "serial_number": "42",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Neo Naomi",
+        "serial_number": "42",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Neo Naomi",
+        "serial_number": "42",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Neo Naomi",
+        "serial_number": "42",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Toffee Crunch",
+        "serial_number": "43",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Toffee Crunch",
+        "serial_number": "43",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Toffee Crunch",
+        "serial_number": "43",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Toffee Crunch",
+        "serial_number": "43",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Kimoto",
+        "serial_number": "44",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Kimoto",
+        "serial_number": "44",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Kimoto",
+        "serial_number": "44",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Kimoto",
+        "serial_number": "44",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Silent Bob",
+        "serial_number": "45",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Silent Bob",
+        "serial_number": "45",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Silent Bob",
+        "serial_number": "45",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Silent Bob",
+        "serial_number": "45",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Midget Filipp",
+        "serial_number": "46",
+        "tribe": "Red",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Midget Filipp",
+        "serial_number": "46",
+        "tribe": "Red",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Midget Filipp",
+        "serial_number": "46",
+        "tribe": "Red",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Midget Filipp",
+        "serial_number": "46",
+        "tribe": "Red",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Harry G",
+        "serial_number": "47",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Harry G",
+        "serial_number": "47",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Harry G",
+        "serial_number": "47",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Harry G",
+        "serial_number": "47",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Dana Dashi",
+        "serial_number": "48",
+        "tribe": "Orange",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Dana Dashi",
+        "serial_number": "48",
+        "tribe": "Orange",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Dana Dashi",
+        "serial_number": "48",
+        "tribe": "Orange",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Dana Dashi",
+        "serial_number": "48",
+        "tribe": "Orange",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Four-eyed Rari",
+        "serial_number": "49",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Four-eyed Rari",
+        "serial_number": "49",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Four-eyed Rari",
+        "serial_number": "49",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Four-eyed Rari",
+        "serial_number": "49",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Toxic Simma",
+        "serial_number": "50",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Toxic Simma",
+        "serial_number": "50",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Toxic Simma",
+        "serial_number": "50",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Toxic Simma",
+        "serial_number": "50",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Grumpy Nelson",
+        "serial_number": "51",
+        "tribe": "Violet",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Grumpy Nelson",
+        "serial_number": "51",
+        "tribe": "Violet",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Grumpy Nelson",
+        "serial_number": "51",
+        "tribe": "Violet",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Grumpy Nelson",
+        "serial_number": "51",
+        "tribe": "Violet",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Young Frankie",
+        "serial_number": "52",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Young Frankie",
+        "serial_number": "52",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Young Frankie",
+        "serial_number": "52",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Young Frankie",
+        "serial_number": "52",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Party Jim",
+        "serial_number": "53",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Party Jim",
+        "serial_number": "53",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Party Jim",
+        "serial_number": "53",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Party Jim",
+        "serial_number": "53",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Candy Crusher",
+        "serial_number": "54",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Candy Crusher",
+        "serial_number": "54",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Candy Crusher",
+        "serial_number": "54",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Candy Crusher",
+        "serial_number": "54",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Fluorescent Goldie",
+        "serial_number": "55",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Fluorescent Goldie",
+        "serial_number": "55",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Fluorescent Goldie",
+        "serial_number": "55",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Fluorescent Goldie",
+        "serial_number": "55",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Silly Cindy",
+        "serial_number": "56",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Silly Cindy",
+        "serial_number": "56",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Silly Cindy",
+        "serial_number": "56",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Silly Cindy",
+        "serial_number": "56",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Anxious Tom",
+        "serial_number": "57",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Anxious Tom",
+        "serial_number": "57",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Anxious Tom",
+        "serial_number": "57",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Anxious Tom",
+        "serial_number": "57",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Bully Bark",
+        "serial_number": "58",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Bully Bark",
+        "serial_number": "58",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Bully Bark",
+        "serial_number": "58",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Bully Bark",
+        "serial_number": "58",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Broccoli Patrick",
+        "serial_number": "59",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Broccoli Patrick",
+        "serial_number": "59",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Broccoli Patrick",
+        "serial_number": "59",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Broccoli Patrick",
+        "serial_number": "59",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    },
+    {
+        "name": "Lovely Brinch",
+        "serial_number": "60",
+        "total_supply": "100",
+        "type": "Silver",
+        "current_supply": "0",
+        "chance": "0.77",
+        "released": true
+    },
+    {
+        "name": "Lovely Brinch",
+        "serial_number": "60",
+        "total_supply": "20",
+        "type": "Gold ",
+        "current_supply": "0",
+        "chance": "0.17",
+        "released": true
+    },
+    {
+        "name": "Lovely Brinch",
+        "serial_number": "60",
+        "total_supply": "8",
+        "type": "Platnium",
+        "current_supply": "0",
+        "chance": "0.06",
+        "released": true
+    },
+    {
+        "name": "Lovely Brinch",
+        "serial_number": "60",
+        "total_supply": "1",
+        "type": "Legendary",
+        "current_supply": "0",
+        "chance": "0.007",
+        "released": true
+    }
+]
