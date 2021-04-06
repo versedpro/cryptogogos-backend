@@ -18,9 +18,10 @@ const getURIfile = async (id) => {
                 cidVersion: 0
             }
         };
+        const file = await pinata.pinFileToIPFS(readableStreamForFile, options);
+        console.log('file', file)
         try {
-            const file = await pinata.pinFileToIPFS(readableStreamForFile, options);
-            console.log('file', file)
+        
 
             await ipfs.files.add(metaBuffer, (err, file) => {
                 if (err) {

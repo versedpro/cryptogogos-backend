@@ -4,6 +4,8 @@ const path = require("path");
 const axios = require("axios");
 const getURIfile = require("./getDatafile.controller");
 const url = `https://api.pinata.cloud/pinning/pinFileToIPFS`;
+const pinataSDK = require('@pinata/sdk');
+const pinata = pinataSDK('16c3984370294d4828c0', '3672043c01bc3257a644b78245ed973db78a7ea66cbe07bd3addc9995bcdd172');
 
 const drawCard = async (req, res, next) => {
   try {
@@ -95,18 +97,18 @@ const drawCard = async (req, res, next) => {
       };
 
       const json = JSON.stringify(obj, null, 4);
-      await fs.writeFile(
-        `src/public/meta/${cad.token_id}.json`,
-        json,
-        (err) => {
-          if (err) console.log(err);
+      const options = {
+        pinataMetadata: {
+            name: 'meta',
+        },
+        pinataOptions: {
+            cidVersion: 0
         }
-      );
-      console.log("card", cad);
-       const uadd = await getURIfile(cad.token_id);
+    };
+    const file = await pinata.pinJSONToIPFS(obj, options);
       const finalCard = {
         card: cad,
-        meta: uadd
+        meta: `https://gateway.pinata.cloud/ipfs/${file.IpfsHash}` 
       };
       finalCards.push(finalCard);
     }
