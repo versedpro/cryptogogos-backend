@@ -1,3 +1,11 @@
+require('newrelic');
+
+const DEFAULT_ENV = 'development';
+const dotenv = require('dotenv')
+dotenv.config({path: `${__dirname}/../config/.env.${process.env.NODE_ENV || DEFAULT_ENV}`})
+
+console.log(process.env.INFURA_RPC_URL)
+
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
