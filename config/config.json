@@ -19,5 +19,5 @@
     "database": "cryptogogos-production",
     "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
     "dialect": "postgresql"
-  },
+  }
 }
