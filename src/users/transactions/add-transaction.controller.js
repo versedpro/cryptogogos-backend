@@ -14,12 +14,13 @@ const addTransactions = async (req, res, next) => {
     });
 
     for (let tid of tokenIds) {
+      console.log("tid", tid);
       const currentToken = await db.tokens.findOne({
         where: {
           token_id: tid,
         },
       });
-      // console.log("currentToken", currentToken);
+      console.log("currentToken", currentToken);
 
       const updateToken = await db.tokens.update(
         {
@@ -59,20 +60,21 @@ const addTransactions = async (req, res, next) => {
           },
         }
       );
-
-      const user = await db.user.findOne({
-        where: { eth_address },
-      });
-      const updateUser = await db.user.update(
-        {
-          total_purcahses: user.total_purcahses + 1,
-        },
-        {
-          where: { eth_address },
-        }
-      );
     }
+    const user = await db.user.findOne({
+      where: { eth_address },
+    });
 
+    console.log("adf", user.total_purcahses);
+    console.log("odf", tokenIds.length);
+    const updateUser = await db.user.update(
+      {
+        total_purcahses: user.total_purcahses + tokenIds.length,
+      },
+      {
+        where: { eth_address },
+      }
+    );
     res.json(transaction).status(200);
   } catch (error) {
     next(error);
