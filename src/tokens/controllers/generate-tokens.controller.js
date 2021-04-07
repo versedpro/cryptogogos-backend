@@ -7,7 +7,7 @@ try {
     if(dataArr) {
         for(let token of dataArr){
             token.serial_number = Number(token.serial_number);
-            token.current_supply = Number(token.current_supply);
+            token.current_supply = 0
             token.total_supply = Number(token.total_supply);
             token.serial_number = Number(token.serial_number);
 
