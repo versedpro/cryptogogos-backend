@@ -1,3 +1,5 @@
+require('newrelic');
+
 const DEFAULT_ENV = 'development';
 const dotenv = require('dotenv')
 dotenv.config({path: `${__dirname}/../config/.env.${process.env.NODE_ENV || DEFAULT_ENV}`})
