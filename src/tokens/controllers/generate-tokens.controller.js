@@ -7,10 +7,10 @@ try {
 
     if(dataArr) {
         for(let token of dataArr){
-            // token.serial_number = Number(token.serial_number);
-            // token.current_supply = Number(token.current_supply);
-            // token.total_supply = Number(token.total_supply);
-            // token.serial_number = Number(token.serial_number);
+            token.serial_number = Number(token.serial_number);
+            token.current_supply = Number(token.current_supply);
+            token.total_supply = Number(token.total_supply);
+            token.serial_number = Number(token.serial_number);
 
             const dbToken = await db.tokens.create(token);
         }
