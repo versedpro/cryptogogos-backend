@@ -1,4 +1,5 @@
 const errorHandler = (err, req, res, next) => {
+  console.error(err, {params: req.params})
     switch (true) {
       case typeof err === "string":
         // custom application error

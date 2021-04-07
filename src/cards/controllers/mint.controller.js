@@ -1,7 +1,6 @@
 const db = require("../../../models");
 const Web3 = require('web3');
 const gogoABI = require("../../data/CryptoGogoABI.json");
-const gogoAddress = "0xadcEf2c8fA1E93C97C0B5718d590cD5112b93bf7";
 
 const singleMint = async (req, res, next) => {
   try {
@@ -14,19 +13,21 @@ const singleMint = async (req, res, next) => {
     const request = await db.drawrequests.findAll({
       where: {
         user_address: user_address,
-        signature: signature
+        signature: signature + ''
       },
     });
 
-    if(!request.length) return res.status(400).json({status: false, err: 'Invalid request'});
+    if(!request.length) return res.status(400).json({status: false, err: 'Invalid request. Cannot mint without a valid mint request'});
 
     const web3 = new Web3(process.env.INFURA_RPC_URL);
-    const gogoContract = new web3.eth.Contract(gogoABI, gogoAddress);
+    const gogoContract = new web3.eth.Contract(gogoABI, process.env.CONTRACT_ADDRESS);
     const owner = await gogoContract.methods.ownerOf(token_id).call();
 
-    if(owner != user_address)  return res.status(400).json({status: false, err: 'Invalid request'});
+    
+    if(owner != user_address)  return res.status(400).json({status: false, err: 'Invalid request. Token ownership could not be proven'});
 
     const tokens = await db.tokens.findAll({
+      attributes: ['id'],
       where: {
         minted: false,
       },
@@ -38,6 +39,8 @@ const singleMint = async (req, res, next) => {
         id: tokens[rand].id
       }
     });
+
+
     res.json(rand).status(200);
   } catch (error) {
     next(error);

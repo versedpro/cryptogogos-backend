@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "Y81ENEqU2OQx",
     "database": "cryptogogos",
-    "host": "cryptogogos.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
+    "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
     "dialect": "postgresql"
   },
   "test": {
