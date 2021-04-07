@@ -2,14 +2,16 @@ const db = require('../../../models');
 const dataArr = require('../../data/tokens_data.json')
 const generateTokens =  async (req, res, next) => {
 
+    console.log("gen tokens")
 try {
 
     if(dataArr) {
         for(let token of dataArr){
-            token.serial_number = Number(token.serial_number);
+            
+            token.serial_number = +token.serial_number;
             token.current_supply = 0
-            token.total_supply = Number(token.total_supply);
-            token.serial_number = Number(token.serial_number);
+            token.total_supply = +token["total supply"];
+            token.serial_number = +token.serial_number;
 
             const dbToken = await db.tokens.create(token);
         }
