@@ -41,5 +41,5 @@ app.use(errorHandler);
 
 app.listen(80, (err) => {
   if (err) console.log(err);
-  console.log("server is running at http://localhost:9000");
+  console.log(`Running ENV: ${process.env.NODE_ENV} -> server is running at http://localhost:80`);
 });

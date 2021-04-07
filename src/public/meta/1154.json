@@ -1,0 +1,27 @@
+{
+    "name": "[Silver] Slimy Dodo - #02 of 100",
+    "description": "",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNnDQJCuQyMcjNaHQB14d9tSG668FmpWkTgP6f1HR1uKx",
+    "attributes": [
+        {
+            "trait_type": "Tribe",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Total Available",
+            "value": 2,
+            "max_value": 100
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Serial No.",
+            "value": 2,
+            "max_value": 100
+        }
+    ]
+}

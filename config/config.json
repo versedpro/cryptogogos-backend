@@ -15,9 +15,9 @@
   },
   "production": {
     "username": "postgres",
-    "password": "postgres",
-    "database": "gogos_db_prod",
-    "host": "127.0.0.1",
+    "password": "Y81ENEqU2OQx",
+    "database": "cryptogogos-production",
+    "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
     "dialect": "postgresql"
   }
 }
