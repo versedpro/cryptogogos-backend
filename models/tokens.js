@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   tokens.init({
-    token_id: DataTypes.INTEGER,
+    token_id: DataTypes.STRING,
     name: DataTypes.STRING,
     description: DataTypes.STRING,
     image: DataTypes.STRING,

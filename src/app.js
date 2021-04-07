@@ -4,7 +4,6 @@ const bodyParser = require("body-parser");
 const errorHandler = require("./helpers/error-handler");
 const cardRoutes = require("./cards/routes/cards.routes")
 const tokenRoutes = require("./tokens/routes/tokens.api")
-const userRoutes = require("./users/routes/users.api")
 const cors = require("cors");
 const metaDataController = require("./tokens/controllers/metadata.controller");
 app.use(bodyParser.json());
@@ -31,7 +30,6 @@ app.use(express.static(__dirname + '/public'));
 
 app.use('/api/v1/cards', cardRoutes);
 app.use('/api/v1/tokens', tokenRoutes)
-app.use('/api/v1/users', userRoutes)
 app.use('/api/metadata/:id', metaDataController)
 // app.get('*',function (req, res) {
 //   res.redirect('/');

@@ -9,6 +9,7 @@ const metaDataController = async (req, res, next) => {
         token_id: id,
       },
     });
+    if (!token) return res.json({}).status(200);
     console.log('token', token)
     const metadata = {
       name: token.name,

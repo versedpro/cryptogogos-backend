@@ -1,34 +1,22 @@
 'use strict';
+
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('transactions', {
+    await queryInterface.createTable('drawrequests', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      eth_address: {
+      user_address: {
         type: Sequelize.STRING
       },
-      tokenId: {
+      signature: {
+        type: Sequelize.STRING
+      },
+      token_id: {
         type: Sequelize.INTEGER
-      },
-      txHash: {
-        type: Sequelize.STRING
-      },
-      tokenIds: {
-        type: Sequelize.ARRAY(Sequelize.STRING)
-      },
-
-      value: {
-        type: Sequelize.STRING
-      },
-      quantity: {
-        type: Sequelize.INTEGER
-      },
-      status: {
-        type:Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
@@ -40,7 +28,8 @@ module.exports = {
       }
     });
   },
+
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('transactions');
+    await queryInterface.dropTable('drawrequests');
   }
 };
