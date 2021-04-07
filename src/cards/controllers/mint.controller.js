@@ -20,7 +20,7 @@ const singleMint = async (req, res, next) => {
 
     if(!request.length) return res.status(400).json({status: false, err: 'Invalid request'});
 
-    const web3 = new Web3('https://rinkeby.infura.io/v3/6e2704d72fc74b199cb896e0c8d8a2f1');
+    const web3 = new Web3(process.env.INFURA_RPC_URL);
     const gogoContract = new web3.eth.Contract(gogoABI, gogoAddress);
     const owner = await gogoContract.methods.ownerOf(token_id).call();
 
@@ -61,7 +61,7 @@ const packMint = async (req, res, next) => {
 
     if(!request.length) return res.status(400).json({status: false, err: 'Invalid request'});
 
-    const web3 = new Web3('https://rinkeby.infura.io/v3/6e2704d72fc74b199cb896e0c8d8a2f1');
+    const web3 = new Web3(process.env.INFURA_RPC_URL);
     const gogoContract = new web3.eth.Contract(gogoABI, gogoAddress);
     const owner = await gogoContract.methods.ownerOf(token_id).call();
 
