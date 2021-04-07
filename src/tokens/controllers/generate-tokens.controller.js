@@ -1,9 +1,8 @@
 const db = require('../../../models');
-const data = require('../../data/tokens_data.json')
+const dataArr = require('../../data/tokens_data.json')
 const generateTokens =  async (req, res, next) => {
 
 try {
-    const dataArr = JSON.parse(JSON.stringify(data));
 
     if(dataArr) {
         for(let token of dataArr){
@@ -22,6 +21,7 @@ try {
     res.json(tokens).status(200)
     
 } catch (error) {
+    console.error(error)
     next(error)
 }
 
