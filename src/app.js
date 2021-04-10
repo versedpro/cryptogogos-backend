@@ -1,8 +1,9 @@
 require('newrelic');
 
-const DEFAULT_ENV = 'development';
 const dotenv = require('dotenv')
-dotenv.config({path: `${__dirname}/../config/.env.${process.env.NODE_ENV || DEFAULT_ENV}`})
+const DEFAULT_ENV = 'development';
+process.env.NODE_ENV = process.env.NODE_ENV || DEFAULT_ENV
+dotenv.config({path: `${__dirname}/../config/.env.${process.env.NODE_ENV}`})
 
 console.log(process.env.INFURA_RPC_URL)
 

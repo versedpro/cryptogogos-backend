@@ -1,16 +1,14 @@
 {
   "development": {
     "username": "postgres",
-    "password": "Y81ENEqU2OQx",
     "database": "cryptogogos-development",
-    "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
     "dialect": "postgresql"
   },
   "staging": {
     "username": "postgres",
-    "password": "Y81ENEqU2OQx",
-    "database": "cryptogogos-development",
-    "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
+    "password": "kQvsH4Mgcj6V",
+    "database": "cryptogogos-staging",
+    "host": "cryptogogos-staging.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
     "dialect": "postgresql"
   },
   "production": {
