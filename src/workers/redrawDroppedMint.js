@@ -1,5 +1,4 @@
 const db = require('../../models')
-
 process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 const dotenv = require('dotenv')
 dotenv.config({
@@ -12,7 +11,7 @@ const gogoABI = require('../data/CryptoGogoABI.json')
 
 console.log('Running script in ENV: ' + process.env.NODE_ENV)
 console.log('infura: ' + process.env.INFURA_RPC_URL)
-console.log('database: ' + db.config)
+console.log('database: ' + db.sequelize.config.host, db.sequelize.config.database)
 console.log('contract: ' + process.env.CONTRACT_ADDRESS)
 
 const web3 = new Web3(process.env.INFURA_RPC_URL)
@@ -27,9 +26,9 @@ const whenWasTokenMinted = async tokenId => {
     })
 
     const transferEv = transfers.filter(t => t.returnValues['tokenId'] === tokenId + '')[0]
-    console.log(transferEv)
+    // console.log(transferEv)
     const tx = await web3.eth.getTransaction(transferEv.transactionHash)
-    console.log(tx)
+    // console.log(tx)
     const time = await web3.eth.getBlock(tx.blockNumber)
     const diff = new Date().getTime() - time.timestamp * 1000
 
@@ -51,8 +50,6 @@ const draw = async () => {
     return db.tokens.findByPk(availableTokens[rand].dataValues.id)
 }
 
-
-
 const redrawEmptyTokens = async () => {
     const mintedTokens = await db.tokens.findAll({
         attributes: ['id'],
@@ -70,52 +67,44 @@ const redrawEmptyTokens = async () => {
     console.log('[*] totalSupply: ' + totalSupply)
 
     if (mintedTokens.length > totalSupply)
-        throw new Error(
-          'Tokens with metadata are more than minted tokens. ANOMALY! SOMETHING FISHY'
-        )
+        console.error('Tokens with metadata are more than minted tokens. Some tokens have been burned by their owners')
 
-    if (totalSupply > mintedTokens.length) {
-        for (let i = 0; i < totalSupply; i++) {
-            const tokenId = await gogoContract.methods.tokenByIndex(i).call()
-            const hasMeta = await db.tokens.count({
-                where: {
-                    token_id: tokenId + ''
-                }
-            })
-            if (!hasMeta) {
-                const { minutesAgo, ownerAddress } = await whenWasTokenMinted(tokenId)
-
-                console.log('[*] Found token without metadata. Id = ' + tokenId + ` address: ${ownerAddress} (${minutesAgo.toFixed()} minutes ago)`)
-                console.log('[*] Getting token transaction from contract...')
+    for (let i = 0; i < totalSupply; i++) {
+        const tokenId = await gogoContract.methods.tokenByIndex(i).call()
+        const hasMeta = await db.tokens.count({
+            where: {
+                token_id: tokenId + ''
+            }
+        })
+        if (!hasMeta) {
+            const { minutesAgo, ownerAddress } = await whenWasTokenMinted(tokenId)
+            if (minutesAgo > 5) {
+                console.log('----------------------------------------------------------\n[*] Found token without metadata. tokenId = ' + tokenId + ` address: ${ownerAddress} (${minutesAgo.toFixed()} minutes ago)`)
                 console.log(`[*] token was minted ${minutesAgo} minutes ago...`)
                 console.log(`[*] Redrawing for token: ${tokenId}`)
                 let drawnGogo = await draw()
-                console.log(`[*] confirming that gogo is available...`)
                 while (drawnGogo.token_id || drawnGogo.minted || drawnGogo.owner_address) {
                     console.log(`[*] Gogo not available, moving to next`)
                     drawnGogo = await draw()
                 }
-                console.log(`[*] Gogo is available...`)
                 console.log(`[*] Drawed Gogo: ${JSON.stringify(drawnGogo.name)}`)
 
-                if (minutesAgo > 5) {
-
-                    console.log(`[*] Setting Gogo (id=${drawnGogo.id}) owner to minter with address ${ownerAddress}`)
-                    await db.tokens.update({
-                        minted: true,
-                        token_id: tokenId + '',
-                        owner_address: ownerAddress
-                    }, { where: { id: drawnGogo.id } })
-                } else {
-                    console.log(`[*] Token with id ${tokenId} was minuted less than 5 minutes ago..Skipping`)
-                }
-
+                console.log(`[*] Attaching Gogo (id=${drawnGogo.id}) to tokenId = ${tokenId}  owner to ${ownerAddress}`)
+                await db.tokens.update({
+                    minted: true,
+                    token_id: tokenId + '',
+                    owner_address: ownerAddress
+                }, { where: { id: drawnGogo.id } })
+            } else {
+                console.log(`[*] Token with id ${tokenId} was minuted less than 5 minutes ago..Skipping`)
             }
 
         }
 
-        console.log(`[*] Done`)
     }
+
+    console.log(`[*] Done`)
+
 }
 
 module.exports = { redrawEmptyTokens }
