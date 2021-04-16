@@ -35,7 +35,7 @@ cron.schedule('*/5 * * * *', async () => {
 });
 
 
-cron.schedule('0/5 0 * * *', async () => {
+cron.schedule('0 0 * * *', async () => {
     try {
         await fetchHolders({db, contract, web3})
     } catch(e) {
