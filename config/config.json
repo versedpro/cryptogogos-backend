@@ -9,13 +9,15 @@
     "password": "kQvsH4Mgcj6V",
     "database": "cryptogogos-staging",
     "host": "cryptogogos-staging.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
-    "dialect": "postgresql"
+    "dialect": "postgresql",
+    "logging": false
   },
   "production": {
     "username": "postgres",
     "password": "Y81ENEqU2OQx",
     "database": "cryptogogos-production",
     "host": "cryptogogos-production.cknezjncxxfg.eu-central-1.rds.amazonaws.com",
-    "dialect": "postgresql"
+    "dialect": "postgresql",
+    "logging": false
   }
 }

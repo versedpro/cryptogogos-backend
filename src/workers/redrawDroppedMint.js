@@ -1,62 +1,46 @@
-const db = require('../../models')
-process.env.NODE_ENV = process.env.NODE_ENV || 'development'
-const dotenv = require('dotenv')
-dotenv.config({
-    path: `${__dirname}/../../config/.env.${process.env.NODE_ENV}`
-})
-
 const fs = require('fs')
 const { Op } = require('sequelize')
-
-const Web3 = require('web3')
-const gogoABI = require('../data/CryptoGogoABI.json')
-
-console.log('Running script in ENV: ' + process.env.NODE_ENV)
-console.log('infura: ' + process.env.INFURA_RPC_URL)
-console.log('database: ' + db.sequelize.config.host, db.sequelize.config.database)
-console.log('contract: ' + process.env.CONTRACT_ADDRESS)
-
-const web3 = new Web3(process.env.INFURA_RPC_URL)
-const gogoContract = new web3.eth.Contract(gogoABI, process.env.CONTRACT_ADDRESS)
-
-
 const confirmedTotalSupply = fs.readFileSync('./lastTotalSupply', 'utf-8')
 
 console.log('last confirmed total supply', confirmedTotalSupply)
-const whenWasTokenMinted = async tokenId => {
-    const transfers = await gogoContract.getPastEvents('Transfer', {
-        fromBlock: 0,
-        toBlock: 'latest',
-        filter: { tokenId: '' + tokenId },
-        topics: ['0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef']
-    })
 
-    const transferEv = transfers.filter(t => t.returnValues['tokenId'] === tokenId + '')[0]
-    // console.log(transferEv)
-    const tx = await web3.eth.getTransaction(transferEv.transactionHash)
-    // console.log(tx)
-    const time = await web3.eth.getBlock(tx.blockNumber)
-    const diff = new Date().getTime() - time.timestamp * 1000
 
-    const minutes = diff / 1000 / 60
-    return { minutesAgo: minutes, ownerAddress: tx.from }
-}
 
-const draw = async () => {
-    const availableTokens = await db.tokens.findAll({
-        attributes: ['id'],
-        where: {
-            minted: false,
-            token_id: {
-                [Op.is]: null
+const redrawEmptyTokens = async ({db, contract, web3}) => {
+
+    const whenWasTokenMinted = async tokenId => {
+        const transfers = await contract.getPastEvents('Transfer', {
+            fromBlock: 0,
+            toBlock: 'latest',
+            filter: { tokenId: '' + tokenId },
+            topics: ['0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef']
+        })
+
+        const transferEv = transfers.filter(t => t.returnValues['tokenId'] === tokenId + '')[0]
+        // console.log(transferEv)
+        const tx = await web3.eth.getTransaction(transferEv.transactionHash)
+        // console.log(tx)
+        const time = await web3.eth.getBlock(tx.blockNumber)
+        const diff = new Date().getTime() - time.timestamp * 1000
+
+        const minutes = diff / 1000 / 60
+        return { minutesAgo: minutes, ownerAddress: tx.from }
+    }
+
+    const draw = async () => {
+        const availableTokens = await db.tokens.findAll({
+            attributes: ['id'],
+            where: {
+                minted: false,
+                token_id: {
+                    [Op.is]: null
+                }
             }
-        }
-    })
-    const rand = parseInt(Math.random() * 10000000000) % availableTokens.length
-    return db.tokens.findByPk(availableTokens[rand].dataValues.id)
-}
+        })
+        const rand = parseInt(Math.random() * 10000000000) % availableTokens.length
+        return db.tokens.findByPk(availableTokens[rand].dataValues.id)
+    }
 
-const redrawEmptyTokens = async () => {
     const mintedTokens = await db.tokens.findAll({
         attributes: ['id'],
         where: {
@@ -67,7 +51,7 @@ const redrawEmptyTokens = async () => {
         }
     })
 
-    const totalSupply = await gogoContract.methods.totalSupply().call()
+    const totalSupply = await contract.methods.totalSupply().call()
 
     console.log('[*] Metadata tokens: ' + mintedTokens.length)
     console.log('[*] totalSupply: ' + totalSupply)
@@ -76,7 +60,7 @@ const redrawEmptyTokens = async () => {
         console.error('Tokens with metadata are more than minted tokens. Some tokens have been burned by their owners')
 
     for (let i = +confirmedTotalSupply; i < totalSupply; i++) {
-        const tokenId = await gogoContract.methods.tokenByIndex(i).call()
+        const tokenId = await contract.methods.tokenByIndex(i).call()
         const hasMeta = await db.tokens.count({
             where: {
                 token_id: tokenId + ''
