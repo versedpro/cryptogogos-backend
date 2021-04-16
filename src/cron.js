@@ -26,7 +26,7 @@ console.log('contract: ' + process.env.CONTRACT_ADDRESS)
 
 const cron = require('node-cron')
 
-cron.schedule('* * * * *', async () => {
+cron.schedule('*/5 * * * *', async () => {
     try {
         await redrawEmptyTokens({db, contract, web3})
     } catch(e) {
@@ -35,7 +35,7 @@ cron.schedule('* * * * *', async () => {
 });
 
 
-cron.schedule('* * * * *', async () => {
+cron.schedule('0 0 * * *', async () => {
     try {
         await fetchHolders({db, contract, web3})
     } catch(e) {
