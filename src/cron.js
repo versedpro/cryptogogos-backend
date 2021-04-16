@@ -13,7 +13,7 @@ const cron = require('node-cron')
 const express = require("express");
 const app = express();
 
-cron.schedule('* * * * *', async () => {
+cron.schedule('*/5 * * * *', async () => {
     try {
         await redrawEmptyTokens()
     } catch(e) {
