@@ -4,6 +4,8 @@ const dotenv = require('dotenv')
 dotenv.config({
     path: `${__dirname}/../../config/.env.${process.env.NODE_ENV}`
 })
+
+const fs = require('fs')
 const { Op } = require('sequelize')
 
 const Web3 = require('web3')
@@ -17,6 +19,10 @@ console.log('contract: ' + process.env.CONTRACT_ADDRESS)
 const web3 = new Web3(process.env.INFURA_RPC_URL)
 const gogoContract = new web3.eth.Contract(gogoABI, process.env.CONTRACT_ADDRESS)
 
+
+const confirmedTotalSupply = fs.readFileSync('./lastTotalSupply', 'utf-8')
+
+console.log('last confirmed total supply', confirmedTotalSupply)
 const whenWasTokenMinted = async tokenId => {
     const transfers = await gogoContract.getPastEvents('Transfer', {
         fromBlock: 0,
@@ -69,7 +75,7 @@ const redrawEmptyTokens = async () => {
     if (mintedTokens.length > totalSupply)
         console.error('Tokens with metadata are more than minted tokens. Some tokens have been burned by their owners')
 
-    for (let i = 0; i < totalSupply; i++) {
+    for (let i = +confirmedTotalSupply; i < totalSupply; i++) {
         const tokenId = await gogoContract.methods.tokenByIndex(i).call()
         const hasMeta = await db.tokens.count({
             where: {
@@ -104,6 +110,7 @@ const redrawEmptyTokens = async () => {
     }
 
     console.log(`[*] Done`)
+
 
 }
 
